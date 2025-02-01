@@ -5,15 +5,15 @@ class Student:
         self.name = name
         self.surname = surname
 
-Hikmet = Student(153, "male", "Hikmet", "Qurbanov")
-Medina = Student(163, "female", "Medina", "Rahmanova")
-print("Name: ", Hikmet.name, "\nSurname: ", Hikmet.surname, "\nGender: ", Hikmet.gender, "\nHeight: ", Hikmet.height)
+Ronaldo = Student(188, "SigmaMale", "Cristiano", "Ronaldo")
+Leonel = Student(163, "loshara", "Leonel", "Messi")
+print("Name: ", Leonel.name, "\nSurname: ", Leonel.surname, "\nGender: ", Leonel.gender, "\nHeight: ", Leonel.height)
 print("\n")
-print("Name: ", Medina.name, "\nSurname: ", Medina.surname, "\nGender: ", Medina.gender, "\nHeight: ", Medina.height)
+print("Name: ", Ronaldo.name, "\nSurname: ", Ronaldo.surname, "\nGender: ", Ronaldo.gender, "\nHeight: ", Ronaldo.height)
 
 
 '''DONT DO LIKE THAT!!!!!!!'''
-Names = ["Hikmet", "Medina", "Aziz"]
+Names = ["Messi", "Pessi", "ChupaChups"]
 Surnames = ["Qurbanov", "Rahmanova", "Rahimli"]
 
 Surnames.pop(0)
