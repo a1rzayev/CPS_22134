@@ -47,7 +47,9 @@ class Human:
 
 
 programmer = Job("Programmer", 1500)
-Shamsaddin = Human("Shamsaddin", programmer, None, None, 0.25)
+it_specialist = Job("It specialist", 1000)
+deputat = Job("Dovlet qulluqcusu", 6000)
+Shamsaddin = Human("Shamsaddin", deputat, None, None, 0.25)
 
 print(f"Job:\n\tName: {programmer.name}\n\tSalary: {programmer.salary}")
 
