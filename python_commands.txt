@@ -1,1 +1,2 @@
 pip install название_пакета
+python -m pip install название_пакета
