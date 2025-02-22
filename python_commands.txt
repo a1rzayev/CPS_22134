@@ -1,2 +1,4 @@
-pip install название_пакета
-python -m pip install название_пакета
+pip install название_пакета (установить пакет)
+python -m pip install название_пакета (установить пакет)
+
+python -m unittest название_файла (запустить unittest файл)
